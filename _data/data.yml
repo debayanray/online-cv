@@ -8,23 +8,23 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Debayan Ray
+    tagline: Expert Backend Developer (Python)
+    avatar: debayan-profile-pic.png # profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: example@email.com
-    phone: 012 345 6789
-    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+    email: debayan.ray@gmail.com
+    phone: +91 9830520464
+    timezone: # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
     citizenship:
-    website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-    linkedin: alandoe
-    xing: alandoe
-    github: jekyll
+    website: # Include the full website URL, including "http://" or "https://".
+    linkedin: debayanray
+    xing: 
+    github: debayanray
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@jekyllrb'
+    twitter: #'@jekyllrb'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -33,235 +33,139 @@ sidebar:
     leetcode: # Please provide your LeetCode username.
     pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
-
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
-
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Seasoned Staff Software Engineer with a proven track record at
+      **Alation**, **Oracle** and **HPE**. Excelled in leading
+      **Data Governance** modules, mentoring teams and contributing to
+      **Opensource** project (Openstack) with advanced Python backend and
+      Distributed systems expertise. Well known for thoughful and innovative
+      solutions with a collaborative approach. In short, a person with an
+      attitude of `listen-like-you-are-wrong` and `bias-for-action`. Have spent
+      **19 years** in the field of software development.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: B.E. in Electronics Engineering
+        university: NIT, Surat (Gujarat)
+        time: 2001 - 2005
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Staff Software Engineer
+        time: Jan 2021 - Present
+        company: Alation, Fully remote (Bangalore)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          - Leading development of multiple **Data Governance** &
+            **Curation** modules of Alation.
+          - Technical SME on bulk stewardship and curation at scale.
+          - Active engagement with PS, SEs, AEs and Customers for the
+            supporting modules.
+          - Thriving in a very fast-paced development environment
+          - Tech skills:
+            - Distributed system
+            - Python, Django
+            - PostgreSQL, REST API
+            - Celery
+            - React, Frontend
+            - AWS, Git
+            - Data catalog, curation & governance
+      - role: Principal Member of Technical Staff
+        time: Feb 2019 - Jan 2021
+        company: Oracle, Bangalore
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          - Active Developer of **Oracle DB LCM** on cloud (DBaaS).
+          - Mentoring and coaching engineering members across teams.
+          - Tech skills:
+            - Distributed system
+            - Python, Flask, SQLAlchemy, REST API
+            - MySQL, Oracle DB (cdb & pdb)
+            - Cloud, DBaaS
+      - role: System Software Engineer V
+        time: Apr 2015 - Feb 2019
+        company: Hewlett Packard Enterprise (HPE R&D), Bangalore
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+          HPE sponsored **Opensource** contributor to the **OpenStack Ironic**
+          project and was owning the **Ironic iLO drivers**. Served as a core
+          team member of **Sushy** project.
+            - Full ownership of features right from design to functionality
+              testing through CI.
+            - Extensive Code review and code contribution to OpenStack.
+            - Tech skills:
+              - Openstack (IaaS)
+              - Distributed system
+              - Advanced Python backend
+              - Flask, SQLAlchemy, MySQL
+              - RabbitMQ
+              - Linux, Git, Gerrit
+              - Baremetal provisioning, Cloud computing
+      - role: Senior Software Developer
+        time: Aug 2011 - Apr 2015
+        company: Perceptive Software (Hyland software), Kolkata
+      - role: System Software Engineer III
+        time: May 2010 - Aug 2011
+        company: Hewlett Packard (HP R&D), Bangalore
+      - role: Senior Software Specialist
+        time: Jul 2008 - May 2010
+        company: Infosys, Bangalore
+      - role: Software Developer
+        time: Oct 2007 - Jul 2008
+        company: GoldenSource India Pvt. Ltd., Mumbai
+      - role: Software Engineer
+        time: Jul 2005 - Oct 2007
+        company: Patni, Mumbai
 
 oss:
     title: OSS Contributions
     intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Active contributor to Openstack Ironic project from 2015 to 2019. Served
+      as a core team member of Sushy project.
     contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Openstack contribution
+        link: https://www.stackalytics.io/?release=all&project_type=openstack&user_id=deray&metric=marks
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Openstack Ironic
+        link: https://docs.openstack.org/ironic
+        tagline: Ironic is an OpenStack project which aims to provision bare
+          metal (as opposed to virtual) machines by leveraging common
+          technologies such as PXE boot and IPMI to cover a wide range
+          of hardware, while supporting pluggable drivers to allow
+          vendor-specific functionality to be added.
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Sushy
+        link: https://docs.openstack.org/sushy
+        tagline: Sushy is a Python library to communicate with Redfish based
+          systems.
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Django Flask DRF Connexion
         level: 98%
 
-      - name: Angular
+      - name: DjangoORM SQLAlchemy
         level: 98%
 
-      - name: HTML5 & CSS
+      - name: Celery RabbitMQ
         level: 95%
 
-      - name: Ruby on Rails
+      - name: REST API gRPC
+        level: 95%
+
+      - name: Designing distributed systems
+        level: 90%
+
+      - name: PostgreSQL MySQL
         level: 85%
 
-      - name: Sketch & Photoshop
+      - name: Java C++
         level: 60%
 
 footer: >
