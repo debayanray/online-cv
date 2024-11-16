@@ -102,21 +102,19 @@ experiences:
               - RabbitMQ
               - Linux, Git, Gerrit
               - Baremetal provisioning, Cloud computing
-      - role: Senior Software Developer
-        time: Aug 2011 - Apr 2015
-        company: Perceptive Software (Hyland software), Kolkata
-      - role: System Software Engineer III
-        time: May 2010 - Aug 2011
-        company: Hewlett Packard (HP R&D), Bangalore
-      - role: Senior Software Specialist
-        time: Jul 2008 - May 2010
-        company: Infosys, Bangalore
-      - role: Software Developer
-        time: Oct 2007 - Jul 2008
-        company: GoldenSource India Pvt. Ltd., Mumbai
-      - role: Software Engineer
-        time: Jul 2005 - Oct 2007
-        company: Patni, Mumbai
+      - role: Other Company experiences
+        time: Jul 2005 - Apr 2015
+        details: |
+          - Perceptive Software (Hyland software), Kolkata
+            - Aug 2011 - Apr 2015
+          - Hewlett Packard (HP R&D), Bangalore
+            - May 2010 - Aug 2011
+          - Infosys, Bangalore
+            - Jul 2008 - May 2010
+          - GoldenSource India Pvt. Ltd, Mumbai
+            - Oct 2007 - Jul 2008
+          - Patni, Mumbai
+            - Jul 2005 - Oct 2007
 
 oss:
     title: OSS Contributions
