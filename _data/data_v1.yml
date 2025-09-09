@@ -121,13 +121,26 @@ experiences:
             - Jul 2005 - Oct 2007
 
 oss:
-    title: Opensource Contributions
+    title: OSS Contributions
     intro: >
       Active contributor to Openstack Ironic project from 2015 to 2019. Served
       as a core team member of Sushy project.
     contributions:
-      - title: Refer Openstack contribution
+      - title: Openstack contribution
         link: https://www.stackalytics.io/?release=all&project_type=openstack&user_id=deray&metric=marks
+
+      - title: Openstack Ironic
+        link: https://docs.openstack.org/ironic
+        tagline: Ironic is an OpenStack project which aims to provision bare
+          metal (as opposed to virtual) machines by leveraging common
+          technologies such as PXE boot and IPMI to cover a wide range
+          of hardware, while supporting pluggable drivers to allow
+          vendor-specific functionality to be added.
+
+      - title: Sushy
+        link: https://docs.openstack.org/sushy
+        tagline: Sushy is a Python library to communicate with Redfish based
+          systems.
 
 skills:
     title: Skills &amp; Proficiency
