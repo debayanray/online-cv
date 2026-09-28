@@ -211,19 +211,20 @@ p {
     }
   }
   .brief-with-link {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 15px;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    gap: 15px !important;
     .brief-text {
-      flex: 1;
-      color: $text-color-secondary;
+      flex: 1 !important;
+      color: #545E6C;
       font-size: 13px;
       line-height: 1.5;
     }
     .read-more-link {
-      flex-shrink: 0;
-      white-space: nowrap;
+      flex-shrink: 0 !important;
+      white-space: nowrap !important;
+      text-align: right !important;
     }
   }
   .time,
@@ -373,16 +374,18 @@ p {
   }
 
 // Skill pill styles (global)
-.skill-pill {
-  display: inline-block;
-  padding: 5px 14px;
-  font-size: 12px;
-  background-color: $theme-color !important;
-  color: #fff !important;
-  border: none;
-  border-radius: 15px;
-  font-weight: 500;
-  margin: 3px 5px 3px 0;
+.skills-section .skill-pill,
+.skill-table .skill-pill,
+span.skill-pill {
+  display: inline-block !important;
+  padding: 5px 14px !important;
+  font-size: 12px !important;
+  background-color: #4B6A78 !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 15px !important;
+  font-weight: 500 !important;
+  margin: 3px 5px 3px 0 !important;
 }
 
 // Table-based skill layout
