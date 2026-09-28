@@ -11,7 +11,7 @@
 
   {% if oss.intro %}
   <div class="intro">
-    <p>{{ oss.intro }}</p>
+    {{ oss.intro | markdownify }}
   </div>
   <!--//intro-->
   {% endif %}

@@ -174,13 +174,18 @@ p {
     margin-bottom: 20px;
   }
   .section {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 
   .experiences-section,
   .educations-section {
     .item {
-      margin-bottom: 30px;
+      margin-bottom: 18px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #eee;
+      &:last-child {
+        border-bottom: none;
+      }
     }
   }
   .upper-row,
@@ -194,11 +199,32 @@ p {
   .degree,
   .cert-title{
     color: $text-color;
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 0;
     margin-bottom: 0;
-    font-weight: 500;
+    font-weight: 700;
     flex: 75%;
+  }
+  .details {
+    p {
+      margin-bottom: 5px;
+    }
+  }
+  .brief-with-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+    .brief-text {
+      flex: 1;
+      color: $text-color-secondary;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .read-more-link {
+      flex-shrink: 0;
+      white-space: nowrap;
+    }
   }
   .time,
   .cert-url {
@@ -278,6 +304,110 @@ p {
     height: 12px;
     background: lighten($theme-color, 15%);
   }
+
+  .skill-category {
+    margin-bottom: 20px;
+  }
+  .skill-category-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: $text-color;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .skill-tag {
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 12px;
+    background: lighten($theme-color, 40%);
+    color: darken($theme-color, 20%);
+    border-radius: 15px;
+    font-weight: 500;
+  }
+
+  // Card-based skill layout
+  &.skill-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  .skill-card {
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 6px;
+    padding: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+  .skill-card-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: $theme-color;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid lighten($theme-color, 30%);
+    padding-bottom: 6px;
+  }
+  .skill-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      font-size: 13px;
+      color: $text-color-secondary;
+      padding: 3px 0;
+      &:before {
+        content: "›";
+        color: $theme-color;
+        font-weight: bold;
+        margin-right: 6px;
+      }
+    }
+  }
+  }
+
+// Skill pill styles (global)
+.skill-pill {
+  display: inline-block;
+  padding: 5px 14px;
+  font-size: 12px;
+  background-color: $theme-color !important;
+  color: #fff !important;
+  border: none;
+  border-radius: 15px;
+  font-weight: 500;
+  margin: 3px 5px 3px 0;
+}
+
+// Table-based skill layout
+.skill-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.skill-row {
+  border-bottom: 1px solid #eee;
+  &:last-child {
+    border-bottom: none;
+  }
+}
+.skill-category-cell {
+  width: 130px;
+  padding: 10px 12px 10px 0;
+  font-size: 11px;
+  font-weight: 600;
+  color: $text-grey;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  vertical-align: middle;
+}
+.skill-pills-cell {
+  padding: 8px 0;
 }
 
 .footer {

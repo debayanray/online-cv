@@ -8,19 +8,18 @@
     {{ skills.title }}
   </h2>
 
-  <div class="skillset">
-    {% for skill in skills.toolset %}
-    <div class="item">
-      <h3 class="level-title">{{ skill.name }}</h3>
-      {% assign skill_level = 'width: ' | append: skill.level %}
-      <div class="level-bar">
-        <div class="level-bar-inner" style="{{skill_level}}"></div>
-      </div>
-      <!--//level-bar-->
-    </div>
-    <!--//item-->
+  <table class="skill-table">
+    {% for category in skills.categories %}
+    <tr class="skill-row">
+      <td class="skill-category-cell">{{ category.name }}</td>
+      <td class="skill-pills-cell">
+        {% for skill in category.items %}
+        <span class="skill-pill">{{ skill }}</span>
+        {% endfor %}
+      </td>
+    </tr>
     {% endfor %}
-  </div>
+  </table>
 </section>
 <!--//skills-section-->
 {% endif %}

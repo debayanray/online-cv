@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<section class="section experience-detail-section">
+  <div class="back-link">
+    <a href="/#experiences">
+      <i class="fas fa-arrow-left"></i> Back to CV
+    </a>
+  </div>
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ page.title }}
+  </h2>
+
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="job-title">{{ page.role }}</h3>
+        <div class="time">{{ page.time }}</div>
+      </div>
+      <div class="company">
+        {% if page.company_url %}
+        <a href="{{ page.company_url }}" target="_blank">{{ page.company }}</a>
+        {% else %}
+        {{ page.company }}
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="details">
+      {{ content }}
+    </div>
+  </div>
+</section>

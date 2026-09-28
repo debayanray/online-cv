@@ -1,0 +1,11 @@
+{% assign target_roles = site.data.data["target-roles"] %}
+{% if target_roles %}
+<div class="target-roles-container container-block">
+  <h2 class="container-block-title">{{ target_roles.title }}</h2>
+  <ul class="list-unstyled target-roles-list">
+    {% for role in target_roles.roles %}
+    <li>{{ role }}</li>
+    {% endfor %}
+  </ul>
+</div><!--//target-roles-container-->
+{% endif %}

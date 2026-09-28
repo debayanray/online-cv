@@ -1,0 +1,21 @@
+{% assign target_roles = site.data.data.target-roles %}
+{% if target_roles %}
+<section class="section target-roles-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-bullseye fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ target_roles.title }}
+  </h2>
+
+  <div class="item">
+    <ul class="list-inline">
+      {% for role in target_roles.roles %}
+      <li class="list-inline-item"><span class="badge badge-light">{{ role }}</span></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+</section><!--//section-->
+{% endif %}
